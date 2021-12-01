@@ -200,7 +200,7 @@ static int faktorialRekursif(int n){//kalo rekursif rada susah karna pake if els
         return(0);
     }else{
         System.out.print(n+" ");
-        return(faktorialRekursif(n-1));//
+        return(faktorialRekursif(n-1));//recursion call
         
     }
 }
